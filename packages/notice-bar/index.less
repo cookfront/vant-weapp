@@ -6,20 +6,32 @@
   line-height: 24px;
   align-items: center;
 
-  &--within-icon {
+  &--withicon {
     position: relative;
     padding-right: 40px;
   }
 
-  &__left-icon {
-    height: 18px;
-    min-width: 20px;
-    box-sizing: border-box;
+  &--wrapable {
+    height: auto;
+    padding: 8px 15px;
 
-    > image {
-      width: 16px;
-      height: 16px;
+    .van-notice-bar {
+      &__wrap {
+        height: auto;
+      }
+
+      &__content {
+        position: relative;
+        white-space: normal;
+      }
     }
+  }
+
+  &__left-icon {
+    display: flex;
+    margin-right: 4px;
+    vertical-align: middle;
+    align-items: center;
   }
 
   &__right-icon {
@@ -29,7 +41,7 @@
     font-size: 16px;
   }
 
-  &__content-wrap {
+  &__wrap {
     position: relative;
     height: 24px;
     overflow: hidden;

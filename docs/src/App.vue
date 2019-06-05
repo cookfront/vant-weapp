@@ -16,8 +16,7 @@ const UNSHARED = [
   'quickstart',
   'changelog',
   'intro',
-  'transition',
-  'col'
+  'transition'
 ];
 
 const MAPPER = {
@@ -38,7 +37,7 @@ export default {
           path = MAPPER[path];
         }
 
-        return `https://youzan.github.io/vant/mobile.html?hide_nav=1#/zh-CN/${path}`;
+        return `https://youzan.github.io/vant/mobile.html?hide_nav=1&weapp=1#/zh-CN/${path}`;
       }
 
       return `./preview.html#${path}`;

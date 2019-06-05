@@ -1,5 +1,75 @@
 ## 更新日志
 
+## [v0.5.14](https://github.com/youzan/vant-weapp/tree/v0.5.14)
+`2019-05-30`
+
+**Improvements**
+
+- Card: 新增 bottom 插槽 [\#1668](https://github.com/youzan/vant-weapp/pull/1668)
+- Radio: 重构组件，API与Checkbox对齐 [\#1665](https://github.com/youzan/vant-weapp/pull/1665)
+- Checkbox: 优化性能、更新文档 [\#1665](https://github.com/youzan/vant-weapp/pull/1665)
+- Tabbar: 新增 border 属性 [\#1649](https://github.com/youzan/vant-weapp/pull/1649)
+
+**Bug Fixes**
+
+- SubmitBar: 修复 tip-icon 属性无效 [\#1671](https://github.com/youzan/vant-weapp/pull/1671)
+- DatetimePicker: 修复wepy中组件初始化报错 [\#1659](https://github.com/youzan/vant-weapp/pull/1659)
+
+## [v0.5.13](https://github.com/youzan/vant-weapp/tree/v0.5.13)
+`2019-05-15`
+
+**Improvements**
+
+- Rate: 新增 allow-half 属性 [\#1623](https://github.com/youzan/vant-weapp/pull/1623)
+- NoticeBar: 新增 wrapable 属性 [\#1617](https://github.com/youzan/vant-weapp/pull/1617)
+- NoticeBar: left-icon 支持 van-icon [\#1604](https://github.com/youzan/vant-weapp/pull/1604)
+
+**Bug Fixes**
+
+- Checkbox: 修复文本过长时样式异常 [\#1616](https://github.com/youzan/vant-weapp/pull/1616)
+- Transition: 修复leave阶段时节点不消失 [\#1621](https://github.com/youzan/vant-weapp/pull/1621)
+
+## [v0.5.12](https://github.com/youzan/vant-weapp/tree/v0.5.12)
+`2019-05-05`
+
+**Improvements**
+
+- Field: 新增 password 属性 [\#1583](https://github.com/youzan/vant-weapp/pull/1583)
+- Dialog: 新增 class-name 属性 [\#1601](https://github.com/youzan/vant-weapp/pull/1601)
+- SubmitBar: 新增 tip-icon 属性 [\#1593](https://github.com/youzan/vant-weapp/pull/1593)
+
+**Bug Fixes**
+
+- 修复 Stepper 不能输入小数的问题 [\#1600](https://github.com/youzan/vant-weapp/pull/1600)
+- 修复 Stepper 粘贴中文字符时报错的问题 [\#1599](https://github.com/youzan/vant-weapp/pull/1599)
+- 修复 Icon new、question 图标展示不全的问题 [\#1595](https://github.com/youzan/vant-weapp/pull/1595)
+- 修复 SubmitBar 使用标签选择器导致框架报错的问题 [\#1577](https://github.com/youzan/vant-weapp/pull/1577)
+- 修复 NoticeBar 使用标签选择器导致框架报错的问题 [\#1574](https://github.com/youzan/vant-weapp/pull/1574)
+
+
+## [v0.5.11](https://github.com/youzan/vant-weapp/tree/v0.5.11)
+`2019-04-24`
+
+**Bug Fixes**
+
+- Area: 修复同步设置areaList时不显示选项 [\#1556](https://github.com/youzan/vant-weapp/pull/1556)
+- Slider: 修复拖拽同时设置 value 时拖拽失效 [\#1553](https://github.com/youzan/vant-weapp/pull/1553)
+- Collapse: 修复 collapse-item 销毁时未从 collapse 中注销 [\#1517](https://github.com/youzan/vant-weapp/pull/1517)
+
+**Improvements**
+
+- Icon: 升级 @vant/icons 至1.1.6 [\#1560](https://github.com/youzan/vant-weapp/pull/1560)
+- DatetimePicker: 新增 formatter 属性、 新增外部样式类 [\#1558](https://github.com/youzan/vant-weapp/pull/1558)
+- Badge: 新增 click 事件 [\#1557](https://github.com/youzan/vant-weapp/pull/1557)
+- Toast: 新增 onClose 属性、 新增插槽 [\#1552](https://github.com/youzan/vant-weapp/pull/1552)
+- Picker: 新增 default-index 属性 [\#1540](https://github.com/youzan/vant-weapp/pull/1540)
+- Collapse: 新增 clickable 属性 [\#1538](https://github.com/youzan/vant-weapp/pull/1538)
+- Notify: 新增 zIndex 属性 [\#1535](https://github.com/youzan/vant-weapp/pull/1535)
+- SubmitBar: 新增 decimal-length 属性 [\#1529](https://github.com/youzan/vant-weapp/pull/1529)
+- Field: 使用 view 模拟 textarea 的 placeholder, 修复 placeholder 漂移问题 [\#1527](https://github.com/youzan/vant-weapp/pull/1527)
+- Cell: 新增 useLabelSlot 属性、 新增 label 插槽 [\#1510](https://github.com/youzan/vant-weapp/pull/1510)
+- Feild: 新增 error-message-align 属性 [\#1509](https://github.com/youzan/vant-weapp/pull/1509)
+
 ## [v0.5.10](https://github.com/youzan/vant-weapp/tree/v0.5.10)
 `2019-04-11`
 
